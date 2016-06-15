@@ -14,3 +14,5 @@ The `deref` subdirectory contains a package for safely dereferencing pointers.
 
 These simple packages can be useful when dealing with APIs and datatypes that use
 pointers to represent optional parameters.
+
+Almost all of the code in the `ptr` and `ptr/deref` packages has been automatically generated.
