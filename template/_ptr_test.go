@@ -5,9 +5,7 @@ package ptr_test
 import (
 	"fmt"
 	"testing"
-	{{range .Imports -}}
-	"{{.}}"
-	{{- end}}
+	{{range .Imports}}"{{.}}"{{end}}
 	"github.com/spkg/ptr"
 	"github.com/spkg/ptr/deref"
 )
