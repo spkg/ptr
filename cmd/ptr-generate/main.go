@@ -11,7 +11,7 @@ import (
 	"text/template"
 )
 
-var debug = debugT(true)
+var debug = debugT(false)
 
 type debugT bool
 
