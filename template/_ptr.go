@@ -4,9 +4,7 @@ package ptr
 
 {{ if .Imports -}}
 import (
-	{{range .Imports -}}
-	"{{.}}"
-	{{- end}}
+	{{range .Imports}}"{{.}}"{{end}}
 )
 {{- end}}
 
